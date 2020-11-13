@@ -45,10 +45,6 @@ $(call inherit-product, $(DEVICE_PATH)/common_prop.mk)
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
-# AuthSecret 
-PRODUCT_PACKAGES += \
-    android.hardware.authsecret@1.0-service
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
